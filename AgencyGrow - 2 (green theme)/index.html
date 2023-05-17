@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgencyGrow | Advertising Agency</title>
+
+  <!-- 
+    - favicon
+  -->
+  <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"> -->
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="" class="logo">AgencyGrow</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="" class="logo">AgencyGrow</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#why-us" class="navbar-link" data-nav-link>Why Us?</a>
+          </li>
+
+          <li>
+            <a href="#faqs" class="navbar-link" data-nav-link>FAQs</a>
+          </li>
+
+          <li>
+            <a href="#footer" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="" class="btn-outline">Lets talk</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle has-before">Welcome to Our Agency</p>
+
+            <h1 class="h1 hero-title">The future of advertising</h1>
+
+            <p class="hero-text">
+              <!-- Donec tincidunt lacinia diam, eu volutpat est sollicitudin at. Vestibulum ut mi tristi que, vulputate ante
+              quis, tempus enim. Proin quis euismod purus. Suspen disse efficitur aliquam enim sed consequat vulputate ante quis. -->
+              AgencyGrow is an advertising agency. We offer our clients high quality service with our own marketing experts, we advertise our client's product/service with marketing strategies from our experts - all this at a relatively low cost
+            </p>
+
+            <div class="btn-group">
+              <a href="" class="btn btn-primary">Discover More</a>
+
+              <!-- <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">How it works</span>
+              </button> -->
+            </div>
+
+          </div>
+
+          <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+            <img src="./assets/images/hero-banner.png" width="650" height="650" alt="hero banner" class="img-cover">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="802" height="654" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2-sm section-title">Sharing you and your company with the world.</h2>
+
+            <p class="section-text">
+              <!-- Lorem Ipsum is simply dumm of free available in market the way printing and typesetting industry has been
+              the industrys standard dummy text ever.  -->
+              We offer our clients a high quality service with marketing strategies from our experts - all this at a relatively low cost. 
+            </p>
+
+            <ul class="about-list">
+
+              <li class="has-before">
+                Comparative low price with high quality service  
+              </li>
+
+              <li class="has-before">
+                We offer our clients Quick service, and growth
+              </li>
+
+              <li class="has-before">
+                Our team is full with experienced marekting experts
+              </li>
+
+            </ul>
+
+            <div class="btn-group">
+              <a href="" class="btn btn-primary">Know More</a>
+
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">Join Us!</span>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-What We Offer-</p>
+
+          <h2 class="h2 section-title text-center">Our Creative Services</h2>
+
+          <p class="section-text text-center">
+            <!-- Get the most of reduction in your team’s operating costs for the whole product which creates amazing UI/UX
+            experiences. -->
+            Get the most effective result at a relatively low price with the help of our marketing experts
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-1.png" width="140" height="140" loading="lazy"
+                    alt="UI/UX Creative Design" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Advertising</h3>
+
+                  <p class="card-text">
+                    <!-- Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and
+                    adipiscing elit. -->
+                      We advertise our client's product/service, with the help of our marketing experts. We make growth easy
+                  </p>
+
+                  <a href="" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-2.png" width="140" height="140" loading="lazy" alt="App Development"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Quick Service</h3>
+
+                  <p class="card-text">
+                    <!-- Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and
+                    adipiscing elit. -->
+                    We give our clients high quality service as well as quick service, we advertise our client's product/service at the right time
+                  </p>
+
+                  <a href="" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-3.png" width="140" height="140" loading="lazy"
+                    alt="Professional Content Writer" class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Marketing Experts</h3>
+
+                  <p class="card-text">
+                    <!-- Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and
+                    adipiscing elit. -->
+                    We have our marketing experts who help us in advertising our client's product/service, our experts are experienced based
+                  </p>
+
+                  <a href="" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card has-after">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design"
+                    class="img">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Graphic Designer</h3>
+
+                  <p class="card-text">
+                    <!-- Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and
+                    adipiscing elit. -->
+                    We have our experienced graphic designer who will design the ads template by the suggestion of our markeintg experts
+                  </p>
+
+                  <a href="" class="btn-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="" class="btn btn-primary">Get Started</a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #WHY-US
+      -->
+
+      <section class="section why-us" id="why-us" aria-label="why-us">
+        <div class="container">
+
+          <p class="section-subtitle text-center">-Why Choose Us-</p>
+
+          <h2 class="h2 section-title text-center">Reasons to Choose Us</h2>
+
+          <p class="section-text text-center">
+            <!-- Get the most of reduction in your team’s operating costs for the whole product which creates amazing UI/UX
+            experiences. -->
+            AgencyGrow helps it's clients to grow their business by advertising for them
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="why-us-card">
+
+                <data class="card-number" value="01">01</data>
+
+                <h3 class="h3 card-title">Marketing Strategies</h3>
+
+                <p class="card-text">
+                  <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque natus dolorem odit non, vero animi autem sint suscipit illo. Consectetur aperiam totam. -->
+                  AgencyGrow offers it's clients with high quality service as well as marketing strategies by our marketing experts. Marketing expert with experience
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="why-us-card">
+
+                <data class="card-number" value="02">02</data>
+
+                <h3 class="h3 card-title">Marketing with Experts</h3>
+
+                <p class="card-text">
+                  <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque natus dolorem odit non, vero animi autem sint suscipit illo. Consectetur aperiam totam. -->
+                  AgencyGrow provides it's clients with experienced marketing experts, who make up the marketing strategies of our client's product/service 
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="why-us-card">
+
+                <data class="card-number" value="03">03</data>
+
+                <h3 class="h3 card-title">Banner for ads</h3>
+
+                <p class="card-text">
+                  <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque natus dolorem odit non, vero animi autem sint suscipit illo. Consectetur aperiam totam. -->
+                  Banner are the most important desgin in order to attract customers. AgencyGrow design client's product/service banner with the help of marekting experts.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="why-us-card">
+
+                <data class="card-number" value="04">04</data>
+
+                <h3 class="h3 card-title">Ads on big platforms</h3>
+
+                <p class="card-text">
+                  <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque natus dolorem odit non, vero animi autem sint suscipit illo. Consectetur aperiam totam. -->
+                  We advertise our client's product/service on big platform in order to get customer. We advertise on social media platforms like instagram, youtube and facebook
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="why-us-card">
+
+                <data class="card-number" value="06">06</data>
+
+                <h3 class="h3 card-title">Reasonable Price</h3>
+
+                <p class="card-text">
+                  <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque natus dolorem odit non, vero animi autem sint suscipit illo. Consectetur aperiam totam. -->
+                  AgencyGrow offers our clients a reasonable price for advertising, with social media marketing experts, banner making designs by graphic desginers
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="why-us-card">
+
+                <data class="card-number" value="05">05</data>
+
+                <h3 class="h3 card-title">Most Advanced Features</h3>
+
+                <p class="card-text">
+                  <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque natus dolorem odit non, vero animi autem sint suscipit illo. Consectetur aperiam totam. -->
+                  AgencyGrow offers it's clients the most advanced features to use for advertising, we use high quality instruments for our client to get more customers
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FAQ
+      -->
+
+      <section class="section faq" aria-label="frequently asked questions" id="faqs">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Discover Frequently Asked Questions?</h2>
+
+            <a href="" class="btn btn-primary">Work Together</a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    <!-- 01. Curious about how to build your own UX strategy? Here are five simple steps. -->
+                    01. ---------------------------------------------------------------------------
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    <!-- 02. Where Could a Career in UX Take You? Agency vs. In-House vs. Freelance? -->
+                    02. ---------------------------------------------------------------------------
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    <!-- 03. What Is a Problem Statement in UX? (And How To Write One? -->
+                    03. ---------------------------------------------------------------------------
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    <!-- 04. There are several techniques UX designers employ to arrive at a succinct? -->
+                    04. ---------------------------------------------------------------------------
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="faq-card">
+
+                <button class="card-action" data-accordion-action>
+                  <h3 class="h3 card-title">
+                    <!-- 05. What are the obstacles users are facing? What are they trying to do? -->
+                    05. ---------------------------------------------------------------------------
+                  </h3>
+
+                  <div class="action-icon">
+                    <ion-icon name="add-outline" aria-hidden="true" class="open"></ion-icon>
+                    <ion-icon name="remove-outline" aria-hidden="true" class="close"></ion-icon>
+                  </div>
+                </button>
+
+                <div class="card-content">
+                  <p>
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="" class="logo">AgencyGrow</a>
+
+          <p class="footer-text">
+            Lorem ipsum dolor sit amet consecte tur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email" required class="email-field">
+
+            <button type="submit" class="form-btn">
+              <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our Services</p>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Strategy & Research</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Web Development</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Web Solution</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Digital Merketing</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">App Design</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">App Development</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">About Company</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Our Services</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Our Portfolio</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Our Blog</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Latest News</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+            <address class="contact-link address">
+              <!-- 4517 Washington Ave. Manchester, Kentucky 39495 -->
+              New Link Road, Anand Nagar, Jogeshwari(W), Mumbai, India
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+7894631546876" class="contact-link">91+ 111-111-1111</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+            <a href="mailto:info@hoolix.com" class="contact-link">agencygrow777@gmail.com</a>
+          </li>
+
+          <li class="footer-item">
+            <ul class="social-list">
+
+              <li>
+                <a href="" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 AgencyGrow | All Rights Reserved by <a href="" class="copyright-link">AgencyGrow</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-bottom-link">Terms of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
